@@ -17,7 +17,4 @@ public abstract class Empleado { //Debe ser abstracta para que no se pueda insta
         return SSYPension + arl;
     }
 
-
-    
-
 }

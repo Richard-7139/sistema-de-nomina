@@ -16,7 +16,8 @@ public class EmpleadoAsalariado extends Empleado {
     }
     
     @Override
-    public double calcularBeneficios() {
+    public double calcularBeneficios() { // Calcular beneficios basados en los años en la empresa
+        // Si lleva más de 5 años en la empresa, se le otorga un beneficio
         double beneficios = 0;
         if (aniosEnEmpresa >= 5) {
             beneficios = salarioMensual * 0.1; // 10% del salario mensual como beneficio
